@@ -5,10 +5,10 @@ var arr=new Array(1e6);
 for (i = 0; i < arr.length; i++) arr[i] = Math.floor(Math.random()*1e6);
 console.log(arr);
 
-function sortirivka(a,b) {
+function sortirovka(a,b) {
     if (a > b) return 1;
     if (a < b) return -1;
-}; arr.sort(sortirivka);
+}; arr.sort(sortirovka);
 console.log(arr);
 console.log(arr.reverse());
 function arrSum(array){
